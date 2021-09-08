@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package myfancyjavaproject;
 
 class MyClass{
@@ -18,15 +14,18 @@ class MyClass{
     public void printName(){
         System.out.println("The name is " + this.name);
     }
+    public void sayHello(){
+        System.out.println("Hello " + this.name);
+    }
 }
 public class MyFancyJavaProject {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
+        
         MyClass mc = new MyClass("Random");
         mc.printName();
+        mc.sayHello();
     }
     
 }

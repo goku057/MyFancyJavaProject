@@ -1,2 +1,0 @@
-myfancyjavaproject.MyClass
-myfancyjavaproject.MyFancyJavaProject
